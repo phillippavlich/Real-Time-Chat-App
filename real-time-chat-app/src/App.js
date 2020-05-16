@@ -3,6 +3,7 @@ import './App.css';
 
 import Users from './components/Users.js'
 import MessageLog from './components/MessageLog.js'
+import SendMessage from './components/SendMessage.js'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
       <Users />
       <MessageLog />
+      <SendMessage />
     </div>
   );
 }
