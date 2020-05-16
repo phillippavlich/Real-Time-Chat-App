@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Users from './components/Users.js'
+import MessageLog from './components/MessageLog.js'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </header>
 
       <Users />
+      <MessageLog />
     </div>
   );
 }
