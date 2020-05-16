@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import Users from './components/Users.js'
+
 function App() {
   return (
     <div className="App">
@@ -8,8 +10,10 @@ function App() {
         <p>
           Add content here
         </p>
-        
+
       </header>
+
+      <Users />
     </div>
   );
 }
