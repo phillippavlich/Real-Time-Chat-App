@@ -16,7 +16,6 @@ function App() {
           <MessageLog />
           <SendMessage />
       </div>
-      <Login />
 
     </div>
   );

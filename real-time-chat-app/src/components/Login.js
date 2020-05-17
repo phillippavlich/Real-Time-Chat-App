@@ -9,7 +9,7 @@ class Login extends Component {
 			    <h3>Made by: Phillip Pavlich</h3>
 			    <h4>A real time chat application using Socket.io to connect to other web users</h4>
                 <br />
-				<form action="">
+				<form action="/app">
 				  <input type="text" placeholder="Enter your username" />
                   <input type="submit" value="Login" />
                 </form>
