@@ -34,7 +34,6 @@
   width: 100%;
   display: inline-block;
   align-items: center;
-  font-size: 16px;
   color: white;
 }
 
@@ -93,6 +92,21 @@
   border-left-style: hidden;
   border-bottom-style: hidden;
   background-color: #eee;
+}
+
+.comment{
+    height: 30px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1%;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    display: inline-block;
+    float: left;
+    clear: both;
+
 }
 
 /* FUTURE ANIMATIONS?

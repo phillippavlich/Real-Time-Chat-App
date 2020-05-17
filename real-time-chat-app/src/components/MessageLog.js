@@ -5,8 +5,9 @@ class MessageLog extends Component {
 	render (){
 		return(
 			<div id = "messageLogBox">
-				<p>Phil: testing</p>
-				<p>Bob: testing2</p>
+			    <div className="comment"><strong>Phil:</strong> testing</div>
+				<div className="comment"><strong>Bob:</strong> testing2</div>
+
 			</div>
 			);
 	}
