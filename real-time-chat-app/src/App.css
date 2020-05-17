@@ -95,7 +95,6 @@
 }
 
 .comment{
-    height: 30px;
     padding: 3px 10px;
     border: 1px solid black;
     border-radius: 20px;
@@ -106,7 +105,6 @@
     display: inline-block;
     float: left;
     clear: both;
-
 }
 
 /* FUTURE ANIMATIONS?
