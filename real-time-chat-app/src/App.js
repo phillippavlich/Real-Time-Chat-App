@@ -16,7 +16,7 @@ function App() {
       <Users user={urlParams.get('user')}/>
       <div id="message-content">
           <MessageLog />
-          <SendMessage />
+          <SendMessage user={urlParams.get('user')}/>
       </div>
 
     </div>

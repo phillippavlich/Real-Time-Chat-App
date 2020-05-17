@@ -33,6 +33,7 @@ class Users extends Component {
 	}
 
 }
+
 Users.propTypes={
 	user: PropTypes.string.isRequired
 }
