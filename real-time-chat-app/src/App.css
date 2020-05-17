@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.no-dots li{
+    list-style: none
+}
+
 #navBar {
   background-color: #0080ff;
   min-height: 10vh;/*viewport height*/
@@ -25,7 +29,6 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  border-bottom: 1px solid black;
 }
 
 #messageLogBox {
@@ -35,25 +38,25 @@
   display: inline-block;
   align-items: center;
   color: white;
+  margin-bottom: 0;
 }
 
 #sendMessageForm {
   background-color: white;
-  min-height: 10vh;
+  min-height: 9vh;
   width: 100%;
   display: inline-block;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   vertical-align: top;
-
 }
 
 #msgBox {
   background-color: white;
   height: 9vh;
-  margin: 2px 0 0 2px;
-  width: 80%;
+  margin: 0 0 0 2px;
+  width: 70%;
   display: inline-block;
   font-size: 16px;
   color: black;
@@ -61,7 +64,7 @@
 }
 
 #submitBox {
-  width: 19%;
+  width: 29%;
   height: 9vh;
   display: inline-block;
   text-align: center;
@@ -73,17 +76,18 @@
 }
 
 #submitBox input {
-  height: 4vh;
-  margin: 2.5vh 0;
+  height: 3.5vh;
+  margin: 0vh 0;/*2.5*/
 
 }
 
 #message-content{
     width: 70%;
-    min-height: 90vh;
+    height: 90vh;
     display: inline-block;
     float: right;
     vertical-align: top;
+    /*overflow: hidden; THIS IS TEMPORARY!!!!!!!!!!!!!!!!*/
 }
 
 .no-border {
@@ -105,6 +109,12 @@
     display: inline-block;
     float: left;
     clear: both;
+}
+
+#addFile{
+    font-size: 12px;
+    vertical-align: top;
+
 }
 
 /* FUTURE ANIMATIONS?

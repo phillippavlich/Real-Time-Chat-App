@@ -2,21 +2,21 @@ import React, {Component} from 'react';
 
 class MessageLog extends Component {
     constructor(){
-          super();
-          this.comments=[
-              {
-                  sender: "Phil",
-                  msg: "testing messages"
-              },
-              {
-                  sender: "Bob",
-                  msg: "i think i got it right this time"
-              },
-               {
-                   sender: "Chad",
-                   msg: "this is to test a very long message. I want to make sure that all of it is properly displayed and that the lines are wrapped"
-               }];
-       }
+      super();
+      this.comments=[
+          {
+              sender: "Phil",
+              msg: "testing messages"
+          },
+          {
+              sender: "Bob",
+              msg: "i think i got it right this time"
+          },
+           {
+               sender: "Chad",
+               msg: "this is to test a very long message. I want to make sure that all of it is properly displayed and that the lines are wrapped"
+           }];
+    }
 
 	render (){
 		return(

@@ -8,6 +8,9 @@ class SendMessage extends Component {
 				<form action="">
                   <textarea type="text" id="msgBox" className = "no-border" name="msgBox" placeholder="Enter a message ..."></textarea>
                   <div id="submitBox">
+                    <input type="file"
+                       id="addFile" name="addFile"
+                       accept="image/*, video/*, .pdf, .doc, .docx, .txt" />
                     <input type="submit" value="Send" />
                   </div>
                 </form>
