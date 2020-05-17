@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.no-dots li{
+    list-style: none
+}
+
 #navBar {
   background-color: #0080ff;
   min-height: 10vh;/*viewport height*/
