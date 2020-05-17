@@ -11,7 +11,7 @@ ReactDOM.render(
     <Router>
       <div>
         <Route exact path="/" component={Login} />
-        <Route exact path="/app" component={App} />
+        <Route path="/app" component={App} />
       </div>
     </Router>
   </React.StrictMode>,
