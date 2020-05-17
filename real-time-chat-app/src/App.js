@@ -11,8 +11,10 @@ function App() {
     <div className="App">
       <Nav />
       <Users />
-      <MessageLog />
-      <SendMessage />
+      <div id="message-content">
+          <MessageLog />
+          <SendMessage />
+      </div>
     </div>
   );
 }

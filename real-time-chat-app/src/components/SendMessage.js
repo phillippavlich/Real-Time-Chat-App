@@ -6,9 +6,10 @@ class SendMessage extends Component {
 		return(
 			<div id = "sendMessageForm">
 				<form action="">
-                  <input type="text" id="msgBox" name="msgBox" placeholder="Enter a message ..."/>
-                  <br/><br/>
-                  <input type="submit" value="Send" />
+                  <textarea type="text" id="msgBox" className = "no-border" name="msgBox" placeholder="Enter a message ..."></textarea>
+                  <div id="submitBox">
+                    <input type="submit" value="Send" />
+                  </div>
                 </form>
 			</div>
 			);

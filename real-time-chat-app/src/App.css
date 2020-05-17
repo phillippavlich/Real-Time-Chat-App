@@ -1,16 +1,98 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 #navBar {
   background-color: #0080ff;
   min-height: 10vh;/*viewport height*/
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 1px solid black;
+}
+
+#usersBox {
+  background-color: #66b3ff;
+  min-height: 90vh;
+  width: 30%;
+  display: inline-block;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#messageLogBox {
+  background-color: #b3b3b3;
+  min-height: 80vh;
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+
+#sendMessageForm {
+  background-color: white;
+  min-height: 10vh;
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  vertical-align: top;
+
+}
+
+#msgBox {
+  background-color: white;
+  height: 9vh;
+  margin: 2px 0 0 2px;
+  width: 80%;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  vertical-align: text-top;
+}
+
+#submitBox {
+  width: 19%;
+  height: 9vh;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  vertical-align: top;
+  overflow: hidden;
+  float: right;
+}
+
+#submitBox input {
+  height: 4vh;
+  margin: 2.5vh 0;
+
+}
+
+#message-content{
+    width: 70%;
+    min-height: 90vh;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+
+.no-border {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
 }
 
 /* FUTURE ANIMATIONS?
