@@ -12,9 +12,11 @@ class Users extends Component {
     }
 
     addNewUser=(newName)=>{
-        this.setState({
-            users: this.state.users.push(newName)
-        });
+        if(newName !== "" && newName != null){
+            this.setState({
+                users: this.state.users.push(newName)
+            });
+        }
     }
 
 	render (){
