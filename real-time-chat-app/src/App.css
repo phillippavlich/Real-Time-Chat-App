@@ -87,7 +87,7 @@
     display: inline-block;
     float: right;
     vertical-align: top;
-    /*overflow: hidden; THIS IS TEMPORARY!!!!!!!!!!!!!!!!*/
+    overflow: hidden; 
 }
 
 .no-border {
