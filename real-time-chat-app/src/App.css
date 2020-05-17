@@ -29,7 +29,6 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  border-bottom: 1px solid black;
 }
 
 #messageLogBox {
@@ -39,6 +38,7 @@
   display: inline-block;
   align-items: center;
   color: white;
+  margin-bottom: 0;
 }
 
 #sendMessageForm {
@@ -50,13 +50,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
   vertical-align: top;
-
 }
 
 #msgBox {
   background-color: white;
   height: 9vh;
-  margin: 2px 0 0 2px;
+  margin: 0 0 0 2px;
   width: 80%;
   display: inline-block;
   font-size: 16px;
@@ -84,10 +83,11 @@
 
 #message-content{
     width: 70%;
-    min-height: 90vh;
+    height: 90vh;
     display: inline-block;
     float: right;
     vertical-align: top;
+    overflow: hidden;
 }
 
 .no-border {
