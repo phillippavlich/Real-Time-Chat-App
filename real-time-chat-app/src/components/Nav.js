@@ -5,7 +5,7 @@ class Nav extends Component {
 	render (){
 		return(
 			<div id = "navBar">
-				<h1>Welcome to my chat app! </h1>
+				<h2>Welcome to my chat app! </h2>
 
 			</div>
 			);

@@ -5,7 +5,7 @@ class Users extends Component {
 	render (){
 		return(
 			<div id = "usersBox">
-				<h3>Online Users: </h3>
+				<h3> <u>Online Users: </u></h3>
 				<ul>
 				    <li>test1</li>
 				    <li>phil</li>
