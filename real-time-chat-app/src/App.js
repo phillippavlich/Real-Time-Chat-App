@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import Login from './components/Login.js'
 import Nav from './components/Nav.js'
 import Users from './components/Users.js'
 import MessageLog from './components/MessageLog.js'
