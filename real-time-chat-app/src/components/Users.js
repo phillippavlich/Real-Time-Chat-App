@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 class Users extends Component {
-    constructor(){
-          super();
-          this.addNewUser("Carlos");
+    constructor(props){
+          super(props);
+          this.addNewUser(this.props.user);
         }
 
     state={
@@ -29,6 +30,9 @@ class Users extends Component {
 			);
 	}
 
+}
+Users.propTypes={
+	user: PropTypes.string.isRequired
 }
 
 export default Users;

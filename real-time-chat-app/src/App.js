@@ -8,10 +8,13 @@ import MessageLog from './components/MessageLog.js'
 import SendMessage from './components/SendMessage.js'
 
 function App() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
   return (
     <div className="App">
       <Nav />
-      <Users />
+      <Users user={urlParams.get('user')}/>
       <div id="message-content">
           <MessageLog />
           <SendMessage />
